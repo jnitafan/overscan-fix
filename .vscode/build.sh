@@ -8,3 +8,5 @@ printf "Please input sudo password to proceed.\n"
 # printf "\n"
 
 echo $sudopass | sudo -E $CLI_LOCATION/decky plugin build $(pwd)
+
+scp out/Overscan\ Safe\ Area.zip deck@steamdeck.local:~/Desktop
